@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/LJYYAnimo/private-config.git
-          basedir: /Users/liujinyong/Documents/IDEA/SpringCloud-Example/basedir
-          username: 1151757358@qq.com
-          password: Animo159369
+          uri: 
+          basedir: /Users/*/Documents/IDEA/SpringCloud-Example/basedir
+          username:
+          password:
   rabbitmq:
     host: localhost
     port: 5672
