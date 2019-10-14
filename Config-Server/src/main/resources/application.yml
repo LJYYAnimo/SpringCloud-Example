@@ -1,0 +1,26 @@
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LJYYAnimo/private-config.git
+          basedir: /Users/liujinyong/Documents/IDEA/SpringCloud-Example/basedir
+          username: 1151757358@qq.com
+          password: Animo159369
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  application:
+    name: CONFIG-SERVER
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
